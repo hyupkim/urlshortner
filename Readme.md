@@ -31,3 +31,10 @@
 > > git push {REMOTE NAME} master
 > > heroku run python manage.py makemigrations
 > > heroku run python manage.py migrate
+
+Comment
+The command "pip3 freeze > requirements.txt" does not properly generate a
+requirments.txt file. Heroku fails to detect the language of the project.
+Manually copy and paste the requirements to build successfully.
+
+Hide Django Secret Key with .gitignore
