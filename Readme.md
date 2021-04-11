@@ -1,4 +1,4 @@
------ Command Line -----
+---------- Command Line ----------
 
 > > django-admin startproject {PROJECT NAME}
 
@@ -16,7 +16,8 @@
 
 > > curl https://cli-assets.heroku.com/install.sh | sh
 
-> > pip3 freeze > requirement.txt
+> > pip3 freeze > requirements.txt
 
 > > heroku login
+
 > > heroku create {APP NAME}
