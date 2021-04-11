@@ -38,3 +38,8 @@ requirments.txt file. Heroku fails to detect the language of the project.
 Manually copy and paste the requirements to build successfully.
 
 Hide Django Secret Key with .gitignore
+
+If you already uploaded your secret file and trying to add on .gitignore,
+
+> > git rm -rf --cahced .
+> > Then add, commit, and push again.
