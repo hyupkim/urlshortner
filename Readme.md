@@ -21,3 +21,13 @@
 > > heroku login
 
 > > heroku create {APP NAME}
+
+> > git init
+> > git remote -v
+> > git remote add {REMOTE NAME} {GIT URL}
+> > heroku addons:create heroku-postgresql:hobby-dev
+> > git add .
+> > git commit -m"{COMMIT MESSAGE}"
+> > git push {REMOTE NAME} master
+> > heroku run python manage.py makemigrations
+> > heroku run python manage.py migrate
